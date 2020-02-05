@@ -5,3 +5,84 @@
   color: #6c6b6b;
 }
 
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+main{
+	padding: 50px 0 50px 0;
+	text-align: center;
+}
+
+
+
+
+.bigbox{
+	width: 960px;
+	float: left;
+	display: inline-block;
+}
+
+
+.box1{
+	width: 300px;
+	padding: 10px 10px 10px 10px;
+	display: inline-block;
+	border: 3px solid #f7f7f7;
+
+}
+
+
+.box-image1{
+	width: 280px;
+	height: 130px;
+	background-image: url(img/flow01.png);
+	background-position: bottom;
+	background-size: cover;
+}
+
+.box-text{
+	font-size: 16px;
+}
+
+
+.box2{
+	width: 300px;
+	padding: 10px 10px 10px 10px;
+	display: inline-block;
+	border: 3px solid #f7f7f7;
+	margin: 0 30px 0 30px;
+
+}
+
+
+.box-image2{
+	width: 280px;
+	height: 130px;
+	background-image: url(img/flow02.png);
+	background-position: bottom;
+	background-size: cover;
+}
+
+.box3{
+	width: 300px;
+	padding: 10px 10px 10px 10px;
+	display: inline-block;
+	border: 3px solid #f7f7f7;
+
+}
+
+
+.box-image3{
+	width: 280px;
+	height: 130px;
+	background-image: url(img/flow03.png);
+	background-position: bottom;
+	background-size: cover;
+}
+
+
+
