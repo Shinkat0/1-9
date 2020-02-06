@@ -13,17 +13,13 @@
 
 
 main{
-	padding: 50px 0 50px 0;
-	text-align: center;
+	padding: 50px 0;
+	width: 960px;
+	margin: 0 auto;
 }
 
-
-
-
-.bigbox{
-	width: 960px;
-	float: left;
-	display: inline-block;
+.box-headline{
+	padding: 10px 0;
 }
 
 
@@ -32,8 +28,10 @@ main{
 	padding: 10px 10px 10px 10px;
 	display: inline-block;
 	border: 3px solid #f7f7f7;
-
+	float: left;
+	position: relative;
 }
+
 
 
 .box-image1{
@@ -43,6 +41,22 @@ main{
 	background-position: bottom;
 	background-size: cover;
 }
+
+.step-logo{
+	width: 40px;
+	height: 25px;
+	display: inline-block;
+	background-color: orange;
+	color: white;
+	font-size: 15px;
+	position: absolute;
+    top: 0;
+    left: 0;
+    padding: 3px;
+
+}
+
+
 
 .box-text{
 	font-size: 16px;
@@ -54,8 +68,8 @@ main{
 	padding: 10px 10px 10px 10px;
 	display: inline-block;
 	border: 3px solid #f7f7f7;
-	margin: 0 30px 0 30px;
-
+	float: left;
+	position: relative;
 }
 
 
@@ -67,12 +81,14 @@ main{
 	background-size: cover;
 }
 
+
 .box3{
 	width: 300px;
 	padding: 10px 10px 10px 10px;
 	display: inline-block;
 	border: 3px solid #f7f7f7;
-
+	float: left;
+	position: relative;
 }
 
 
