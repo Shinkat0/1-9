@@ -26,7 +26,7 @@ main{
 .box1{
 	width: 300px;
 	padding: 10px 10px 10px 10px;
-	display: inline-block;
+
 	border: 3px solid #f7f7f7;
 	float: left;
 	position: relative;
@@ -36,7 +36,7 @@ main{
 
 .box-image1{
 	width: 280px;
-	height: 130px;
+	height: 150px;
 	background-image: url(img/flow01.png);
 	background-position: bottom;
 	background-size: cover;
@@ -48,11 +48,11 @@ main{
 	display: inline-block;
 	background-color: orange;
 	color: white;
-	font-size: 15px;
+	font-size: 13px;
 	position: absolute;
     top: 0;
     left: 0;
-    padding: 3px;
+    padding: 2px;
 
 }
 
@@ -76,7 +76,7 @@ main{
 
 .box-image2{
 	width: 280px;
-	height: 130px;
+	height: 150px;
 	background-image: url(img/flow02.png);
 	background-position: bottom;
 	background-size: cover;
@@ -95,11 +95,41 @@ main{
 
 .box-image3{
 	width: 280px;
-	height: 130px;
+	height: 150px;
 	background-image: url(img/flow03.png);
 	background-position: bottom;
 	background-size: cover;
 }
+
+
+@media screen and (max-width: 768px){
+
+	main{
+		width: 100%;
+		padding: 50px 5%;
+	}
+
+
+	.box1, .box2, .box3{
+		width: 100%;
+
+	}
+
+	.box-image1, .box-image2, .box-image3{
+		width: 100%;
+
+	}
+
+
+
+	.box2{
+		margin:20px 0;
+	}
+
+
+}
+
+
 
 
 
