@@ -35,8 +35,8 @@ main{
 
 
 .box-image1{
-	width: 280px;
-	height: 150px;
+	width: 100%;
+    padding-top: 40%;
 	background-image: url(img/flow01.png);
 	background-position: bottom;
 	background-size: cover;
@@ -75,8 +75,8 @@ main{
 
 
 .box-image2{
-	width: 280px;
-	height: 150px;
+	width: 100%;
+    padding-top: 40%;
 	background-image: url(img/flow02.png);
 	background-position: bottom;
 	background-size: cover;
@@ -94,8 +94,8 @@ main{
 
 
 .box-image3{
-	width: 280px;
-	height: 150px;
+	width: 100%;
+    padding-top: 40%;
 	background-image: url(img/flow03.png);
 	background-position: bottom;
 	background-size: cover;
